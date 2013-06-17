@@ -143,7 +143,7 @@ namespace vocabulary
             
             if (rightedId.ToString() != ((Button)sender).Tag.ToString())
             {
-                MessageBox.Show(dictionary[selectId].chinese + "\n\n" + dictionary[selectId].english               
+                MessageBox.Show(dictionary[selectId].chinese + "\n\n" + dictionary[selectId].english);               
             }            
             //zdzen your sln codes are cool & beautiful, i appreciate it very much. 
             //i'm new to github.com, i don't know how to provide a suggestion for u
