@@ -140,6 +140,16 @@ namespace vocabulary
         {
             answered++;
             dictionary[selectId].questioned++;
+            
+            if (rightedId.ToString() != ((Button)sender).Tag.ToString())
+            {
+                MessageBox.Show(dictionary[selectId].chinese + "\n\n" + dictionary[selectId].english               
+            }            
+            //zdzen your sln codes are cool & beautiful, i appreciate it very much. 
+            //i'm new to github.com, i don't know how to provide a suggestion for u
+            //as a vocabulary learner, to memorize new words, i think it's important
+            // to knwo the right answer immediately after he did wrong
+            
             if ( rightedId.ToString() == ((Button)sender).Tag.ToString() )
             {
                 corrected++;
